@@ -1,113 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- css -->
-    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
-    <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- css -->
+  <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body class="container">
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand fw-semibold" href="#">Meraki</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item"><a class="nav-link active fw-semibold" aria-current="page" href="#about">About</a></li>
-              <li class="nav-item"><a class="nav-link active fw-semibold" aria-current="page" href="#contact">Contact Us</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-semibold" href="#">Meraki</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active fw-semibold" aria-current="page" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link active fw-semibold" aria-current="page" href="#contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-      <!-- banner -->
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100" style="max-height: 600px" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100" style="max-height: 600px" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="https://images.unsplash.com/photo-1592861956120-e524fc739696?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHJlc3RhdXJhbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="d-block w-100" style="max-height: 600px" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+  <!-- banner -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+          class="d-block w-100" style="max-height: 600px" alt="...">
       </div>
-      <!-- Foods -->
-      <div>
-        <h1 class='text-center mt-5 mb-3'>Our Foods</h1>
-        <div class="row">
-            <div class="col-md-6 col-lg-4 mx-auto">
-                <img src="https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8ZnJpZWQlMjBjaGlja2VufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="w-100" alt="">
-                <h3>Fried Chicken</h3>
-                <h3>Price: 350</h3>
-            </div>
-            <div class="col-md-6 col-lg-4 mx-auto">
-                <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZnJpZWQlMjByaWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="w-100" alt="">
-                <h3>Fried Rice</h3>
-                <h3>Price: 400</h3>
-            </div>
-            <div class="col-md-6 col-lg-4 mx-auto">
-                <img src="https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmlyeWFuaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="w-100" alt="">
-                <h3>Briyani</h3>
-                <h3>Price: 450</h3>
-            </div>
-        </div>
-        <div class="text-center mt-3"><button class="btn btn-primary">Explore More <i class="fa-sharp fa-solid fa-arrow-right text-white ms-2"></i></button></div>
+      <div class="carousel-item">
+        <img
+          src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+          class="d-block w-100" style="max-height: 600px" alt="...">
       </div>
-      <!-- About us -->
-      <div id="about">
-        <h3 class="text-center mt-4 mb-3">About Us</h3>
-        <article class="text-center">
-          At Meraki, we do things for love and with love, ours for food, nature and good company. We welcome you aboard with your passions, be it reading a good book in a quiet, cozy minimalist corner or strumming a guitar in our little garden amidst twinkling lights and reveling in these rare chilly Dhaka nights and the natural breezes it has to offer. Your idyllic sanctuary awaits</article>
+      <div class="carousel-item">
+        <img
+          src="https://images.unsplash.com/photo-1592861956120-e524fc739696?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHJlc3RhdXJhbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+          class="d-block w-100" style="max-height: 600px" alt="...">
       </div>
-      <!-- contact us -->
-      <div class="mt-4" id="contact">
-        <h3 class="text-center">Contact Us</h3>
-        <table class="mx-auto">
-          <tr>
-            <td>Location</td>
-            <td>:</td>
-            <td>188, Gulshan Avenue, Gulshan-2, Dhaka 1212</td>
-          </tr>
-          <tr>
-            <td>website</td>
-            <td>:</td>
-            <td><a href='https://www.merakidhaka.com/' alt=''>https://www.merakidhaka.com/</a></td>
-          </tr>
-          <tr>
-            <td>Phone</td>
-            <td>:</td>
-            <td>0155554154</td>
-          </tr>
-        </table>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Foods -->
+  <div>
+    <h1 class='text-center mt-5 mb-3'>Our Foods</h1>
+    <div class="row">
+      <div class="col-md-6 col-lg-4 mx-auto">
+        <img
+          src="https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8ZnJpZWQlMjBjaGlja2VufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          class="w-100" alt="">
+        <h3>Fried Chicken</h3>
+        <h3>Price: 350</h3>
       </div>
+      <div class="col-md-6 col-lg-4 mx-auto">
+        <img
+          src="https://images.unsplash.com/photo-1512058564366-18510be2db19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZnJpZWQlMjByaWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          class="w-100" alt="">
+        <h3>Fried Rice</h3>
+        <h3>Price: 400</h3>
+      </div>
+      <div class="col-md-6 col-lg-4 mx-auto">
+        <img
+          src="https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmlyeWFuaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+          class="w-100" alt="">
+        <h3>Briyani</h3>
+        <h3>Price: 450</h3>
+      </div>
+    </div>
+    <div class="text-center mt-3"><button class="btn btn-primary">Explore More <i
+          class="fa-sharp fa-solid fa-arrow-right text-white ms-2"></i></button></div>
+  </div>
+  <!-- About us -->
+  <div id="about">
+    <h3 class="text-center mt-4 mb-3">About Us</h3>
+    <article class="text-center">
+      At Meraki, we do things for love and with love, ours for food, nature and good company. We welcome you aboard with
+      your passions, be it reading a good book in a quiet, cozy minimalist corner or strumming a guitar in our little
+      garden amidst twinkling lights and reveling in these rare chilly Dhaka nights and the natural breezes it has to
+      offer. Your idyllic sanctuary awaits</article>
+  </div>
+  <!-- contact us -->
+  <div class="mt-4" id="contact">
+    <h3 class="text-center">Contact Us</h3>
+    <table class="mx-auto">
+      <tr>
+        <td>Location</td>
+        <td>:</td>
+        <td>188, Gulshan Avenue, Gulshan-2, Dhaka 1212</td>
+      </tr>
+      <tr>
+        <td>website</td>
+        <td>:</td>
+        <td><a href='https://www.merakidhaka.com/' alt=''>https://www.merakidhaka.com/</a></td>
+      </tr>
+      <tr>
+        <td>Phone</td>
+        <td>:</td>
+        <td>0155554154</td>
+      </tr>
+    </table>
+  </div>
 
-      <footer class="text-center mt-4 text-danger">
-        Copyright warning &#169;
-      </footer>
+  <footer class="text-center mt-4 text-danger">
+    Copyright warning &#169;
+  </footer>
 
-    <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="./bootstrap/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
